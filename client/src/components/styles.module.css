@@ -1,0 +1,79 @@
+.container {
+    margin: 0px auto;
+    max-width: 1000px;
+  }
+  
+  .form {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+  }
+  .base {
+    color: brown;
+  }
+  
+  .info {
+    color: blue;
+  }
+  .center {
+    text-align: center;
+  }
+  #btn {
+    background-color: rgba(163, 19, 19, 0.53);
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+  }
+  
+  #del {
+    background-color: rgba(177, 21, 21, 0.811);
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+  }
+  
+  #submit {
+    background-color: rgba(126, 153, 124, 0.861);
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .err {
+    color: red;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    text-align: center;
+    padding: 8px;
+  }
+  .tow {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
